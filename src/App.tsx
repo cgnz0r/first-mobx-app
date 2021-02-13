@@ -1,9 +1,13 @@
 import './App.css';
-import { React } from "react";
-import { observer } from "mobx-react";
+import React from "react";
+import Counter from './Counter';
 
-function App() {
-  return (<><h1>Hello motherfucka</h1></>);
+const App: React.FC = () => {
+    return (
+        <div className="app">
+            <Counter />
+        </div>
+    );
 }
 
 export default App;

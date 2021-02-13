@@ -1,0 +1,15 @@
+.counter {
+    text-align: center;
+}
+
+.elements {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m0 {
+    margin: 0;
+}
